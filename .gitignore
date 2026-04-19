@@ -1,0 +1,11 @@
+# Sécurité : ne jamais push les accès VPN
+*.ovpn
+*.key
+*.crt
+*.pem
+outputs/
+
+# Ansible & Système
+*.retry
+.ansible/
+.DS_Store
